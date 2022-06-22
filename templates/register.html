@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body style="background-image: url('../static/img/fix.png');">
+        <div style="padding-top: 200px;">
+            <h1>Start</h1>
+        </div>
+        <div style="background-color: #a31818; margin-left: 110px; margin-right: 110px;">
+            <p style="width: auto; color: white;">your tasty journey</p>
+        </div>
+        <form action="/register" method="post">
+            <input class="user_input" autocomplete="off" autofocus type="text" name="username" placeholder="Enter Username">
+            <br>
+            <input class="user_input" type="password" name="password" value="" placeholder="Enter Password">
+            <br>
+            <input class="user_input" type="password" name="confirmation" value="" placeholder="Re-enter Password">
+            <br>
+            <input class="submit" type="submit" value="Register">
+        </form>
+    </body>
+</html>

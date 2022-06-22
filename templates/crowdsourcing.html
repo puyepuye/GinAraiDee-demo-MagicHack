@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body style="color: white; background-color: #a31818;">
+        <div style="background-color: #a31818; margin-left: 110px; margin-right: 110px;">
+            <p class="perans" style="margin-bottom: 30px; margin-top: 60px; width: auto; color: white;">your tasty journey</p>
+        </div>
+        <form actions="/crowdsource" method="post">
+            <label style="margin-top: 30px;" for="name_res">Name of the Restaurant</label>
+            <br>
+            <input class="user_input_c" name="restaurant" type="text">
+            <br>
+            <label style="margin-top: 30px;" for="name_res">Location</label>
+            <br>
+            <input class="user_input_c" name="location" type="text">
+            <br>
+            <label style="margin-top: 30px;" for="name_res">Specialty</label>
+            <br>
+            <input class="user_input_c" name="speciality" type="text">
+            <br>
+            <input type="submit" name="submit" value="submit">
+        </form>
+    </body>
+</html>

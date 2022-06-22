@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body style="background-image: url(../static/img/New3-01.png);">
+        <div style="background-color: #a31818; margin-top: 25px; margin-left: 110px; margin-right: 110px;">
+            <p style="font-size: 20px; padding: 5px; width: auto; color: white;">maybe later</p>
+        </div>
+        <br>
+        <div style="color: white; text-align: left; margin-left: 70px; margin-top: 100px;">
+            <form action="/filter" method="post" style="font-size: 25px;">
+                <p class="perans" style="text-align: left;">I want to eat...</p>
+                <input type="radio" id="Thai food" name="what_food" value="Thai food">
+                <label for="Thai food">Thai food</label> <br>
+                <input type="radio" id="Korean food" name="what_food" value="Korean food">
+                <label for="Korean food">Korean food</label> <br>
+                <input type="radio" id="American food" name="what_food" value="American food">
+                <label for="American food">American food</label> <br>
+                <input type="radio" id="idk" name="what_food" value="American food">
+                <label for="idk">I don't know.</label> <br>
+
+
+                <p class="perans" style="text-align: left;">At a ...</p>
+                <input type="radio" id="Fast food" name="types" value="Fast food">
+                <label for="Fast food">Fast food</label> <br>
+                <input type="radio" id="Street food" name="types" value="Street food">
+                <label for="Street food">Street food</label> <br>
+                <input type="radio" id="Cafe" name="types" value="Cafe">
+                <label for="Cafe">Cafe</label> <br>
+                <input type="radio" id="Bar" name="types" value="Bar">
+                <label for="Bar">Bar</label> <br>
+                <input type="radio" id="Fine dining" name="types" value="Fine dining">
+                <label for="Fine dining">Fine dining</label> <br>
+                <input type="radio" id="idk" name="types" value="Fine dining">
+                <label for="Idk">I don't know.</label>
+
+                <br>
+
+                <input class="submit" type="submit" value="Next">
+            </form>
+        </div>
+    </body>
+</html>

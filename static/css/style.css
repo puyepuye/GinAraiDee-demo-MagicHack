@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'printable4u';
+    src: url('../fonts/printable4u.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SvnSaltSc';
+    src: url('../sfonts/svnsaltyscript.otf') format('opentype');
+}
+
+a {
+    color: white;
+    font-family: 'printable4u';
+    font-size: 20px;
+    text-decoration: none;
+    margin-botton: 20px;
+}
+
+body {
+    font-family: 'printable4u';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'SvnSaltSc';
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+}
+
+.paragraph {
+    font-family: 'printable4u';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'printable4u';
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.user_input {
+    margin-top: 30px;
+    padding: 3px;
+    padding-left: 25px;
+    font-family: 'printable4u';
+    height: 40px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: 5px solid #a31818;
+    background-color: transparent;
+}
+
+.user_input_c {
+    color: white;
+    margin-top: 5px;
+    padding: 3px;
+    padding-left: 25px;
+    font-family: 'printable4u';
+    height: 40px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: 5px solid white;
+    background-color: transparent;
+    margin-bottom: 25px;
+}
+
+.submit {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px;
+    background-color: #a31818;
+    color: white;
+    font-size: 22px;
+}
+
+.big_p {
+    font-family: 'printable4u';
+    font-size: 40px;
+    text-align: center;
+}
+
+.red_banner {
+    background-color: #a31818;
+}
+
+input {
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.perans {
+    font-size: 30px;
+}
